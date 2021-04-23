@@ -8,7 +8,7 @@ export default class MoneyService {
         return response.json();
       })
       .catch(function (error) {
-        return error.message;
+        return error;//rm .message after error
       });
   }
 }

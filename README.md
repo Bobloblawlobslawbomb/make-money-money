@@ -1,9 +1,8 @@
 # Currency Conversion Project
 
 #### An app that allows you to enter a dollar amount, specify, which currency you'd like to convert that to and then displays the information requested. 
-
-#### By Giancarlo Vigneri
-
+### By Giancarlo Vigneri
+---
 ## Technologies Used
 
 >* _HTML_
@@ -16,8 +15,9 @@
 >* _ESLint_
 >* _Babel_
 >* _Application Programming Interface (API)_
-
-## Description
+---
+## Description 
+The program will present the user with a set of currency choices, under the heading: 'Pick a currency to convert to:' once the user makes that choice they are presented with a text field to enter a dollar amount. The user is expected to enter the amount of money they would like to convert in dollars (ex. 100 = 100 USD). Then the user is presented with their value of dollars converted into the latest values of the equvivalent currency. 
 
 ## Setup/Installation Requirements
 ### Getting your own API key:
@@ -45,9 +45,18 @@
 
 * _Any known issues_
 * _should go here_
+---
+---
+Currency image attributed to:
+
+Photo by: Jason Leung https://unsplash.com/photos/SAYzxuS1O3M On unsplash.com
+
+---
 
 ## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
 _if you do run into any issues or have questions, ideas, or concerns; I would greatly encourage you to send feedback or make a contribution to the code_
+
+---
 
 ## Contact Information
 _Contact Giancarlo Vigneri at: bobloblaw.vigneri@gmail.com_ 

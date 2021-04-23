@@ -29,6 +29,7 @@
 4) An email will be sent to you from exchangerate-api.com. Click the link contained to confirm your email.
 5) Another email will be sent to you with your API key.
 6) Or alternatively you can go to https://www.exchangerate-api.com, sign in to your account and navigate to the dashboard (https://app.exchangerate-api.com/dashboard) and your API key will be displayed there, along with usage details (note: the free tier only allows 1500 API calls a month)
+7) Remember to store you APi key safely. It is yours and yours alone, do not allow anyone else to access it.
 
 ### Running the Program:
 1) Clone the repository: https://github.com/Bobloblawlobslawbomb/make-money-money

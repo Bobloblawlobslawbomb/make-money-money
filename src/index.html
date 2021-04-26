@@ -9,63 +9,66 @@
 </head>
 
 <body>
-  <center><img id="money-pile"
-    src="../assets/images/jason-leung-moneypic-unsplash-small.jpg" alt="A pile of various different world currencies"></center>
-
+  <center><img id="money-pile" src="../assets/images/jason-leung-moneypic-unsplash-small.jpg"
+      alt="A pile of various different world currencies"></center>
   <hr>
   <div class='container'>
-    <h1><center>Convert a U.S. Dollar amount into another currency</center></h1>
+    <h1>
+      <center>Convert a U.S. Dollar amount into another currency</center>
+    </h1>
 
     <form id="pick-a-currency">
       <h2>Pick a currency to convert to:</h1>
-      <div id="radio-div">
-        <div class="radio">
-          <label>
-            <input type="radio" name="other-currency" value="KWD" checked><!--change value to KWD (I think)}-->
-            Kuwaiti Dinar
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="other-currency" value="BHD"><!--change value to BHD (I think)}-->
-            Bahraini Dinar
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="other-currency" value="VND"><!--change value to VND (I think)}-->
-            Vietnamese Dong
-          </label>
+        <div id="radio-div">
           <div class="radio">
             <label>
-              <input type="radio" name="other-currency" value="IRR"><!--change value to IRR (I think)}-->
+              <input type="radio" name="other-currency" value="EUR" checked>
+              Euro
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="other-currency" value="KWD">
+              Kuwaiti Dinar
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="other-currency" value="BHD">
+              Bahraini Dinar
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="other-currency" value="VND">
+              Vietnamese Dong
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="other-currency" value="IRR">
               Iranian Rial
             </label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="other-currency" value="VES"><!--change value to VES (I think)}-->
-                Venezuelan Bolivar
-              </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="other-currency" value="VES">
+              Venezuelan Bolivar
+            </label>
+          </div>
+          <button type="submit" class="btn-lg btn-primary">Pick a currency to convert to</button>
         </div>
-      </div>
-      <button class="btn-lg btn-primary">Pick a currency to convert to</button>
     </form>
-
+    <br>
     <form id="dollar-amount-form">
-      <h2>How many U.S dollars to convert?:</h1>
+      <h2>How many U.S dollars to convert?</h2>
+      <label for="inputted-dollar-amount">Dollar Amount:</label>
+      <br>
       <input type="text" id="inputted-dollar-amount" value="100"></input>
-      <!--<p id="could-not-find">can't find Pokémon</p>-->
-      <button type="submit" class="btn-lg btn-warning">Convert</button><!--added type='submit'-->
+      <button type="submit" class="btn-lg btn-warning">Convert</button>
     </form>
-
-    <div id="show-conversion">
-      
-    </div>
-
-    <div id="show-errors">
-      
-    </div>
-
+    <div id="show-conversion"></div>
+    <div id="show-errors"></div>
   </div>
 </body>
 

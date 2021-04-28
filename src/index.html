@@ -9,15 +9,15 @@
 </head>
 
 <body>
-  <center><img id="money-pile" src="../assets/images/jason-leung-moneypic-unsplash-small.jpg"
-      alt="A pile of various different world currencies"></center>
+  <!--<center><img id="money-pile" src="../assets/images/jason-leung-moneypic-unsplash-small.jpg"
+      alt="A pile of various different world currencies"></center>  i commented this out because it didnt work anyway-->
   <hr>
   <div class='container'>
     <h1>
       <center>Convert a U.S. Dollar amount into another currency</center>
     </h1>
 
-    <form id="pick-a-currency">
+    <form id="form-one">
       <h2>Pick a currency to convert to:</h1>
         <div id="radio-div">
           <div class="radio">
@@ -56,18 +56,13 @@
               Venezuelan Bolivar
             </label>
           </div>
-          <button class="btn-lg btn-primary">Pick a currency to convert to</button>
-          <!--rm type="submit"-->
         </div>
+        <h2>How many U.S dollars to convert?</h2>
+        <label for="inputted-dollar-amount">Dollar Amount:</label>
+        <input type="text" id="inputted-dollar-amount" value="100"></input>
+        <button type="submit" class="btn-lg btn-warning">Convert</button>
     </form>
     <br>
-    <form id="dollar-amount-form">
-      <h2>How many U.S dollars to convert?</h2>
-      <label for="inputted-dollar-amount">Dollar Amount:</label>
-      <br>
-      <input type="text" id="inputted-dollar-amount" value="100"></input>
-      <button type="submit" class="btn-lg btn-warning">Convert</button>
-    </form>
     <div id="show-conversion"></div>
     <div id="show-errors"></div>
   </div>

@@ -15,7 +15,7 @@ function getElements(response) {
 $(document).ready(function() {
   let currencyCode;
   let dollarAmount;
-  $('form-one').submit(function(){
+  $('#form-one').submit(function(){
     currencyCode = $("#radio-div input[type='radio']:checked").val();
     console.log("this is the currency code value: " + currencyCode);
     dollarAmount = $('#inputted-dollar-amount').val();

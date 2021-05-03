@@ -32,7 +32,7 @@ The program will present the user with a set of currency choices, under the head
 7) Remember to store you APi key safely. It is yours and yours alone, do not allow anyone else to access it.
     > How to store your API key safely:
     > 1. Create a file called '.env' in your root directory.
-    > 2. Navigate into the .env file and type "API_KEY={your Api key goes here}" (_after the '=' enter your Api key_). Save the file. 
+    > 2. Navigate into the .env file and type "API_KEY={your Api key goes here}" (_after the '=' enter your Api key_). Save the file.
     > _note: the program uses '${process.env.API_KEY}' for the Api call in money.js. It is important that you have named your Api key 'API_KEY' in the .env file_
 
 ### Running the Program:

@@ -7,8 +7,10 @@ import MoneyService from './js/money.js';
 function getElements(response) {
   if (response.result === "success") {
     $('#show-conversion').text(`That many ${response.base_code} converted to ${response.target_code} is ${response.conversion_result}`);
+    $('#show-errors').text("");
   } else {
     $('#show-errors').text(`There was an error: ${response["error-type"]}`);
+    $('#show-conversion').text("");
   }
 }
 

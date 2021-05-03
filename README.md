@@ -30,6 +30,10 @@ The program will present the user with a set of currency choices, under the head
 5) Another email will be sent to you with your API key.
 6) Or alternatively you can go to https://www.exchangerate-api.com, sign in to your account and navigate to the dashboard (https://app.exchangerate-api.com/dashboard) and your API key will be displayed there, along with usage details (note: the free tier only allows 1500 API calls a month)
 7) Remember to store you APi key safely. It is yours and yours alone, do not allow anyone else to access it.
+    > How to store your API key safely:
+    > 1. Create a file called '.env' in your root directory.
+    > 2. Navigate into the .env file and type "API_KEY={your Api key goes here}" (_after the '=' enter your Api key_). Save the file. 
+    > _note: the program uses '${process.env.API_KEY}' for the Api call in money.js. It is important that you have named your Api key 'API_KEY' in the .env file_
 
 ### Running the Program:
 1) Clone the repository: https://github.com/Bobloblawlobslawbomb/make-money-money
@@ -37,20 +41,14 @@ The program will present the user with a set of currency choices, under the head
 3) Open with your favorite text editor (Visual Studio Code, is a pretty sweet one)
 4) To start a development server and view the project in the browser:
     > * Navigate to 'make-money-money/' in your command line
+    > * Follow the steps under 'Getting your own API key'
     > * Run the command "npm install" to install dependencies
-    > * Optionally, run the command "npm run build" to > bundle the files
+    > * Optionally, run the command "npm run build" to bundle the files (_note: your Api key needs to be setup within the .env file before building the program_)
     > * Finally, run the command "npm run start" to start a development server
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
----
----
-Currency image attributed to:
-
-Photo by: Jason Leung https://unsplash.com/photos/SAYzxuS1O3M On unsplash.com
-
+* _none. That I know of..._
 ---
 
 ## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
